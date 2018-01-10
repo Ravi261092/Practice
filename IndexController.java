@@ -63,7 +63,7 @@ public class IndexController {
 
 	@RequestMapping(method = RequestMethod.GET)
 	public String index(ModelMap model, final Principal principal) {
-		
+		ModelMap2.highlightsServiceImpl.GET
 		return "index";
 	}
 }
